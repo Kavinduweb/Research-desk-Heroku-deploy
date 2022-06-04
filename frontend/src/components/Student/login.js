@@ -52,7 +52,7 @@ function STDLogin() {
         e.preventDefault()
         try {
 
-            const res = await axios.post('https://researchdesk.herokuapp.com/student/login', {studentNumber, password})
+            const res = await axios.post('student/login', {studentNumber, password})
             setUser({...user, err:'', success:res.data.msg})
 
 
