@@ -1,0 +1,140 @@
+
+
+header{
+    width: 100%;
+    min-width: 100px;
+    /* background: #3A454B; */
+
+    /* background: linear-gradient(90deg, #E2A500 20%, #3A454B 80%); */
+    /* background: linear-gradient(to left, red 20%, blue 80%) no-repeat;
+background-size: calc(100%); */
+border-radius: 4px;
+
+background: linear-gradient(90deg, #E2A500 35%, #3A454B 35%);
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    text-decoration: none;
+    
+    
+   
+
+}
+
+header a {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-decoration: none!important;
+    
+}
+
+header ul li {
+    display: inline-block;
+    padding: 10px;
+    opacity: 0.8;
+    
+
+}
+header ul li:hover{
+    opacity: 2;
+    text-decoration: none!important;
+
+}
+
+header ul li img{
+    width: 60px;
+    height: 60px;
+    transform: translateY(10px);
+    border-radius: 50%;
+   
+}
+header h1{
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+/*dropdown*/
+
+.drop-nav{
+    position: relative;
+    padding: 10px 0;
+    
+}
+
+.drop-nav a{
+    text-transform: capitalize;
+    overflow: hidden;
+    
+
+}
+.drop-nav-link{
+    padding-top: 10px;  
+    padding: 20px;
+    font-size: 20px;
+}
+
+.drop-nav .dropdown{
+    position: absolute;
+    background : gray;
+    width: 100%;
+    width: calc(100% + 10px);
+    display: none;
+    margin-left: -70px;
+    border-radius: 15px; 
+
+}
+
+.drop-nav:hover .dropdown{
+    display: block;
+}
+
+
+/*dropdown2*/
+
+.drop-nav2{
+    position: relative;
+    
+    
+}
+
+.drop-nav2 a{
+    text-transform: capitalize;
+    overflow: hidden;
+    
+    
+
+}
+.drop-nav-link2{
+    padding-top: 30px;  
+   
+    font-size: 20px;
+    
+}
+
+.drop-nav2 .dropdown2{
+   
+    position: absolute;
+    background : gray;
+    width: 100%;
+    width: calc(100% );
+    display: none;
+    margin-left: -40px;
+    border-radius: 15px; 
+
+}
+
+.drop-nav2:hover .dropdown2{
+    display: grid;
+
+}
+
+
+
+
+
+
+

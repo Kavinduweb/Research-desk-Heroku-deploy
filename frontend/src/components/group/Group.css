@@ -1,0 +1,35 @@
+
+
+/*li {
+    padding: 10px;
+    width: 250px;
+    max-width: 250px;
+    max-height: 800px;
+}*/
+
+.card5 {
+    margin: auto;
+    margin-top: 30px;
+    
+   
+  
+    width: 700px;
+    height: 620px;
+    box-shadow: 5px 5px 10px #ccc;
+    align-items: center;
+}
+
+/* .btn {
+    width: 160px;
+    height: 260px;
+} */
+
+/* h2 {
+    font-weight: bold;
+    margin-top: -50px;
+}
+
+h6 {
+    font-weight: bold;
+    margin-top: 30px;
+} */
