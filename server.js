@@ -22,7 +22,7 @@ app.use('/student', require('./routes/studentRoute'))
 
 
 
-const __dirname = path.resolve();
+
 
 
 
